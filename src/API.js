@@ -174,6 +174,7 @@ componentDelete(task, TaskDate, login) {
     });
   }
 
+  //новый комментариый
   component(task, login, date, getListTasks, method = 'task') {
     // const url = `http://10.50.1.59:90/kpi-web-http-services/hs/POSTTasks/task/${login}`;
     // const url = `http://10.50.1.59:90/kpi-web-http-services/hs/POSTTasks/${method}/${login}`;
