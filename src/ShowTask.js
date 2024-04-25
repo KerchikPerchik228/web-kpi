@@ -196,6 +196,12 @@ class ShowTask extends Component {
     return /[^\s]/gim.test(text_from_input);
   }
 
+  //19.04.2024 - начало
+  openHistoryChanges() {
+    alert('Work');
+  }
+  //19.04.2024 - конец
+
   showMonthTask(TaskName, Date, Weight, Number, Criteria, Note, Base) {
     return (
       <div>
@@ -248,9 +254,15 @@ class ShowTask extends Component {
           </div>
         </div>
 
+        {/* <div class="btn-group-ShowTask"> */}
         <div>
-          <Button className="btn btn-primary mt-2" id='save' onClick={this.saveChanges}>Сохранить изменения</Button>
+          <button type='button' className="btn btn-primary mt-2" id='save' onClick={this.saveChanges}>Сохранить изменения</button>
         </div>
+
+        {/* <div>
+            <button type='button' className="btn btn-link mt-2 mx-2" id='openHistory' onClick={this.openHistoryChanges}>История изменений</button>
+          </div>
+        </div> */}
       </div>
     )
   }
