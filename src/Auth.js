@@ -151,8 +151,8 @@ export class Auth extends Component {
 
   component() {
     const { login, password } = this.state;
-    // const url = `http://10.50.1.59:90/kpi-web-http-services/hs/POSTAuth/user/`;
-    const url = `http://10.50.1.38:90/KMukhachev-kpi-test6/hs/POSTAuth/user/`;
+    const url = `http://10.50.1.59:90/kpi-web-http-services/hs/POSTAuth/user/`;
+    // const url = `http://10.50.1.38:90/KMukhachev-kpi-test6/hs/POSTAuth/user/`;
     this.sendData(url, login, password);
   }
 }
