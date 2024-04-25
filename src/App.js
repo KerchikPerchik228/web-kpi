@@ -25,8 +25,8 @@ class App extends Component {
       periodicityValue = document.getElementById('Periodicity').value;
     }
 
-    // let baseAddress = 'http://10.50.1.59:90/kpi-web-http-services';
-    let baseAddress = 'http://10.50.1.38:90/KMukhachev-kpi-test6';
+    let baseAddress = 'http://10.50.1.59:90/kpi-web-http-services';
+    // let baseAddress = 'http://10.50.1.38:90/KMukhachev-kpi-test6';
 
     let arr = document.cookie.split('=');
     let token;
